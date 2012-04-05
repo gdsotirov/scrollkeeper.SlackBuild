@@ -19,7 +19,7 @@
 #
 # Visit SlackPack at http://sotirov-bg.net/slackpack/
 #
-# $Id: scrollkeeper.SlackBuild,v 1.3 2012/04/05 18:57:13 gsotirov Exp $
+# $Id: scrollkeeper.SlackBuild,v 1.4 2012/04/05 19:02:42 gsotirov Exp $
 #
 
 . ../../slack-package.conf
@@ -63,6 +63,7 @@ CXXFLAGS=$SLKCFLAGS \
             --host=$ARCH-slackware-linux \
             --prefix=/usr \
             --sysconfdir=/etc \
+            --libdir=/usr/lib${LIBDIRSUFFIX} \
             --mandir=/usr/man \
             --enable-shared=yes \
             --enable-static=no || exit 2
