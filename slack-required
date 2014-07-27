@@ -1,4 +1,4 @@
-glibc-solibs >= 2.11.1
-libxml2 >= 2.7.6
+glibc-solibs >= 2.15
+libxml2 >= 2.8.0
 libxslt >= 1.1.26
-zlib >= 1.2.3
+zlib >= 1.2.6
